@@ -1,21 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Главная</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="div">
-    <a href="https://vk.com" target="_blank"><img src="https://vk.vkfaces.com/853420/v853420318/1a4fb/5fz6uYf0Xws.jpg" alt="Ссылка на вк"></a>  
-    <form>    
-      <input type="text" name="ФИО">     
-      <input type="email" name="Почта">    
-      <input type="password" name="Пароль">
-      <input type="time" name="Время">
-      <input type="submit" value="Подтвердить">
-    </form>
+<body id="body">
+  <app-root></app-root>
+<div class="container">
+  <ul class="nav nav-pills justify-content-end flex-column flex-md-row">
+    <li><a href="" class="nav-link active">Главная</a></li>
+    <li><a href="/src/news.html" class="nav-link">Новости</a></li>
+    <li><a href="/src/guides.html" class="nav-link">Гайды по сборке</a></li>
+    <li><a href="/src/compare.html" class="nav-link">Сравнение комплектующих</a></li>
+    <li><a href="/src/config.html" class="nav-link">Конфигуратор ПК</a></li>
+    <li><a href="/src/about.html" class="nav-link">Обратная связь</a></li>
+  </ul>
+
+  <div id="Div1">
+    <h1>Приветствуем вас на Sborka.PK!</h1>
+
+    <h3>
+      Наш сайт поможет вам разобраться со сборкой ПК, узнать актуальные новости из мира компьютерных технологий, самим собрать свой идеальный компьютер, 
+      а так же обратиться к нам за сборкой готового ПК
+    </h3>
   </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 </html>
